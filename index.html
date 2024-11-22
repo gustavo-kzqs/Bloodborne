@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloodborne</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+   
+</head>
+<body>
+    
+   <div class="bg__image">
+    <header>
+        <nav class="header__content container">
+            <div class="header__icons">
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <div class="header__logo">
+                <img src="assets/images/bb_logo.png" alt="Logo Bloodborne">
+            </div>
+            <div  onclick="navegarParaSobre()">
+                <a class="header__button" href="#">
+                    Sobre
+                </a>
+            </div>
+        </nav>
+        <main class="hero container">
+           <h1>
+            Olá bom caçador!
+           </h1>
+           <p>
+            Desenvolvido pela From Software junto de Hidetaka Miyazaki, Bloodborne é um RPG de ação que se passa na
+            ficticia Velha Yarnham, assumimos o papel de um caçador e enfrentamos criaturas sombrias e mostruosas. Um combate rápido e agressivo que casa com uma boa narrativa
+            envolta de horror cósmico e gótico.
+           </p>
+        </main>
+    </header>
+   </div>
+   <section class="about">
+    <div class="container about__content">
+        <div>
+            <img class="boss" src="./assets/images/26101057477060.webp" alt="Caçador x Boss">
+            <img src="./assets/images/moon_presence.webp" alt="Presença da lua x Caçador">
+           
+        </div>
+        <div id="sobre" class="about__description">
+            <h2>A Lore</h2>
+            <p>
+                Chegamos a Yarnham em busca de uma cura para a nossa própia doença, doença essa que transforma os homens em bestas sedentas por sangue. Durante a exploração descobrimos a história dos Pthumerianos, estes foram responsaveis por todo o horror que assombra esse mundo, ao longo da história conhecemos outros caçadores com suas própias histórias e aflições. Entre diálogos e lutas incriveis percebemos que os monstros que enfrentamos são apenas vitimas desse mundo destruido.
+            </p>
+            <h2>DLC The Old Hunters</h2>
+            <p>
+                A DLC traz um aumento consideravel na dificuldade do game, as melhores bossfights estão aqui. A história se passa após os eventos finais do game, nos tornamos o novo "Antigo caçador" e agora vamos atrás dos antigos caçadores, estes presos em um mundo de pesadelos 
+            </p>
+
+        </div>
+       
+    </div>
+</section>
+<section class="faq">
+    <h2 class="title">Perguntas frequentes</h2>
+    <ul class="faq__questions">
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                Por onde posso jogar Bloodborne?
+            </div>
+            <div class="faq__questions__item__answer text">
+                Bloodborne está disponivel apenas para PS4, podendo ser adquirido em midia fisica ou digital.
+            </div>
+        </li>
+        <li class="faq__questions__item ">
+            <div class="faq__questions__item__question " data-faq-question>
+                Quantos finais tem o game?
+            </div>
+            <div class="faq__questions__item__answer text">
+                Existem três finais no jogo, sendo os três necessários para a platina.
+            </div>
+        </li>
+        <li class="faq__questions__item">
+            <div class="faq__questions__item__question" data-faq-question>
+                O que é o Discernimento?
+            </div>
+            <div class="faq__questions__item__answer text">
+                Em Bloodborne, o discernimento é uma mecanica que altera a sua visão sobre o mundo durante a jogatina, alguns inimigos só são visiveis em determinada quantia de discernimento.
+            </div>
+        </li>
+    </ul>
+   </section>
+   <footer class="footer">
+    © 2024 Sony Interactive Entertainment LLC
+Todo o conteúdo, títulos de jogos, nomes comerciais e/ou designações comerciais, marcas comerciais, arte e imagens associadas são marcas registradas e/ou material sob direitos autorais dos seus respectivos proprietários. Todos os direitos reservados. 
+   </footer>
+
+
+    
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
